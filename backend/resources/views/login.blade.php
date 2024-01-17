@@ -18,9 +18,9 @@
                     <div class="form-group py-2">
                         <select class="form-control" id="profil" name="profil">
                             {{-- Admin, Responsable, Employé --}}
-                            <option value="1">Administrateur</option>
-                            <option value="2">Responsable</option>
-                            <option value="3">Employé</option>
+                            <option value="administrateur">Administrateur</option>
+                            <option value="responsable">Responsable</option>
+                            <option value="employe">Employé</option>
                         </select>
                     </div>
 
