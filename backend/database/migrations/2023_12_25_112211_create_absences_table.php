@@ -14,7 +14,7 @@ return new class extends Migration
     {
         Schema::create('absences', function (Blueprint $table) {
             $table->id('id_abs');
-            $table->foreignIdFor(Absence::class);
+            $table->foreignId('matricule')->constrained('employes');
             $table->string('raison', 60);
             $table->date('date_deb');
             $table->date('date_fin');
